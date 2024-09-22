@@ -1,0 +1,57 @@
+body {
+    background-image: url('./fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+  .banner {
+    width: 100%; /* Make the banner full-width */
+    height: 150px; /* Set a fixed height for the banner */
+    background-color: #333; /* Choose a background color for the banner */
+    color: #fff; /* Choose a text color for the banner */
+    padding: 20px; /* Add some padding to the banner */
+    text-align: center; /* Center the content horizontally */
+}
+
+.banner img {
+    width: 100%; /* Make the image full-width */
+    height: 140%; /* Make the image full-height */
+    object-fit: cover; /* Scale the image to cover the entire banner area */
+}
+
+.logo {
+    position: absolute;
+    top: 25%; /* Adjust the top position to 25% */
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.radio-player {
+    margin: 20px auto; /* Add 20px margin to the top and bottom */
+    margin-top: 80px; /* Add an extra 30px margin to the top to separate from the banner */
+    text-align: center; /* Center the radio player and link */
+}
+
+.radio-player iframe {
+    display: inline-block; /* Make the iframe an inline-block element */
+    border: 1px solid #ddd; /* Add a border to the iframe */
+    border-radius: 5px; /* Add a border radius to the iframe */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow to the iframe */
+}
+
+.radio-player a {
+    display: block; /* Make the link a block element */
+    font-size: 0.9em; /* Set the font size of the link */
+    line-height: 10px; /* Set the line height of the link */
+    color: #666; /* Set the text color of the link */
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.wrapper {
+    margin: 0 130px; /* Add 50px margin to the left and right sides */
+  }
